@@ -1,0 +1,76 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 336416 bytes for Chunk::new
+# Possis output file may be truncated or incomplete.
+#
+#  Out of Memory Error (t:/workspace/open/src/hotspot/share/memory/arena.cpp:197), pid=27856, tid=44612
+#
+# JRE version:native, id=44612, stack(0x000000ee89500000,0x000000ee89600000)]
+
+
+Current CompileTask:
+C2:    609 1186   !   4       sun.font.TrueTypeFont::getTableBuffer (199 bytes)
+ddcf4c800, 0x000002bddcf4d800, 0x000002bddcf52800, 0x000002bddcf5e800,
+0x000002bddd8bb000, 0x000002bddda20000, 0x000002bdddbde800, 0x000002bdddbe2000,
+0x000002bdddbea800,000)]
+  0x000002bddcf52800 JavaThread "C1 CompilerThread0" daemon [_thread_blocked, id=4488, stack(0x000000ee89600000,0x000000ee89700000)]
+  0x000002bddcf5e800 JavaThread00000ee89f00000)]
+  0x000002bddee7a800 JavaThread "C2 CompilerThread1" daemon [_thread_in_native, id=58108, stack(0x000000ee89f00000,0x000000ee8a000000)]
+
+Other Threads:ont.TrueTypeFont::getTableBuffer (199 bytes)
+C1 CompilerThread0  1231       3       javax.swing.JComponent::revalidate (53 bytes)
+C2 CompilerThread1  1191       4       svious, next)
+|   0|0x0000000081c00000, 0x0000000081d00000, 0x0000000081d00000|100%|HS|  |TAMS 0x0000000081c00000, 0x0000000081c00000| Complete 
+|   1|0x0000000081d00000, x0000000082300000, 0x0000000082300000| Untracked 
+|   8|0x0000000082400000, 0x0000000082400000, 0x0000000082500000|  0%| F|  |TAMS 0x0000000082400000, 0x0000000082400000| 00, 0x0000000082c00000|  0%| F|  |TAMS 0x0000000082b00000, 0x0000000082b00000| Untracked 
+|  16|0x0000000082c00000, 0x0000000082c00000, 0x0000000082d00000|  0%| F|  |TAMS  23|0x0000000083300000, 0x0000000083300000, 0x0000000083400000|  0%| F|  |TAMS 0x0000000083300000, 0x0000000083300000| Untracked 
+|  24|0x0000000083400000, 0x00000000834000000, 0x0000000083a00000| Untracked 
+|  31|0x0000000083b00000, 0x0000000083b00000, 0x0000000083c00000|  0%| F|  |TAMS 0x0000000083b00000, 0x0000000083b00000| Untracked 
+|084300000|  0%| F|  |TAMS 0x0000000084200000, 0x0000000084200000| Untracked 
+|  39|0x0000000084300000, 0x0000000084300000, 0x0000000084400000|  0%| F|  |TAMS 0x00000000843084a00000, 0x0000000084a00000, 0x0000000084b00000|  0%| F|  |TAMS 0x0000000084a00000, 0x0000000084a00000| Untracked 
+|  47|0x0000000084b00000, 0x0000000084b00000, 0x00000000085100000| Untracked 
+|  54|0x0000000085200000, 0x0000000085200000, 0x0000000085300000|  0%| F|  |TAMS 0x0000000085200000, 0x0000000085200000| Untracked 
+|  55|0x000000%| F|  |TAMS 0x0000000085900000, 0x0000000085900000| Untracked 
+|  62|0x0000000085a00000, 0x0000000085a00000, 0x0000000085b00000|  0%| F|  |TAMS 0x0000000085a00000, 0x00000000000086100000, 0x0000000086200000|  0%| F|  |TAMS 0x0000000086100000, 0x0000000086100000| Untracked 
+|  70|0x0000000086200000, 0x0000000086200000, 0x0000000086300000|  Untracked 
+|  77|0x0000000086900000, 0x0000000086900000, 0x0000000086a00000|  0%| F|  |TAMS 0x0000000086900000, 0x0000000086900000| Untracked 
+|  78|0x0000000086a00000, 00x0000000087000000, 0x0000000087000000| Untracked 
+|  85|0x0000000087100000, 0x0000000087100000, 0x0000000087200000|  0%| F|  |TAMS 0x0000000087100000, 0x0000000087100000|000, 0x0000000087900000|  0%| F|  |TAMS 0x0000000087800000, 0x0000000087800000| Untracked 
+|  93|0x0000000087900000, 0x0000000087900000, 0x0000000087a00000|  0%| F|  |TAMS 100|0x0000000088000000, 0x0000000088000000, 0x0000000088100000|  0%| F|  |TAMS 0x0000000088000000, 0x0000000088000000| Untracked 
+| 101|0x0000000088100000, 0x00000000881000000, 0x0000000088700000| Untracked 
+| 108|0x0000000088800000, 0x0000000088800000, 0x0000000088900000|  0%| F|  |TAMS 0x0000000088800000, 0x0000000088800000| Untracked 
+0000|100%| E|CS|TAMS 0x0000000088f00000, 0x0000000088f00000| Complete 
+| 116|0x0000000089000000, 0x0000000089100000, 0x0000000089100000|100%| E|CS|TAMS 0x0000000089000000,0000000089800000, 0x0000000089800000|100%| E|CS|TAMS 0x0000000089700000, 0x0000000089700000| Complete 
+| 124|0x0000000089800000, 0x0000000089900000, 0x0000000089900000|100ty,     9.27 MB ( 98%) used,   150.27 KB (  2%) free+waste,    37.13 KB ( <1%) overhead. 
+      Class:      1.51 MB capacity,     1.33 MB ( 88%) used,   166.24 KB ( 11%) fe=5760Kb used=1219Kb max_used=1250Kb free=4540Kb
+ bounds [0x000002bdc5ef0000, 0x000002bdc6160000, 0x000002bdc6490000]
+ total_blobs=2033 nmethods=1232 adapters=490
+ compi0 1203       3       sun.invoke.util.VerifyAccess::isMemberAccessible (313 bytes)
+Event: 0.607 Thread 0x000002bddcf52800 nmethod 1203 0x000002bdc66c6c10 code [0x000002bdc6pile pc=0x000002bdcd9d6f58 method=java.util.HashMap.putVal(ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; @ 203 c2
+Event: 0.296 Thread 0x000002bdddbea800 Uncom0x000002bdcda1b148 method=java.lang.Character.isSurrogate(C)Z @ 3 c2
+Event: 0.565 Thread 0x000002bdbc24e800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00000897b59a8) thrown at [t:/workspace/open/src/hotspot/share/interpret
+Event: 0.250 Thread 0x000002bdbc24e800 Exception <a 'java/lang/ClassNotFoundException'{0x000000008965c5bb398}> (0x000000008941b398) thrown at [t:/workspace/open/src/hotspot/share/prims/jni.cpp, line 615]
+Event: 0.320 Thread 0x000002bdbc24e800 Exception <a 'java/lang/NullPoine/open/src/hotspot/share/classfile/systemDictionary.cpp, line 235]
+
+Events (10 events):
+Event: 0.606 loading class java/awt/image/PixelInterleavedSampleModel
+Event: 0.60x00007fff65330000 - 0x00007fff655f8000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007fff65180000 - 0x00007fff65280000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007fff4be40000 -65660000 - 0x00007fff6576b000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007fff658d0000 - 0x00007fff6596d000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007fff5c250000 - 0x00007ff0000 - 0x00007fff576dc000 	C:\WINDOWS\SYSTEM32\dbgcore.DLL
+0x00007fff650d0000 - 0x00007fff65150000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007fff47d60000 - 0x00007ffff4c1e0000 - 0x00007fff4c3ce000 	C:\WINDOWS\SYSTEM32\urlmon.dll
+0x00007fff598f0000 - 0x00007fff599fb000 	C:\WINDOWS\SYSTEM32\WINHTTP.dll
+0x00007fff57330000 - 0x00007fff5DOWS\System32\MSCTF.dll
+0x00007fff67710000 - 0x00007fff6783a000 	C:\WINDOWS\System32\ole32.dll
+0x00007fff3fc70000 - 0x00007fff3fcf0000 	C:\Program Files\Java\jdk-12.0.2\b-12.0.2\bin\server
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 --module-path=C:\Users\13321\eclipse-workspace\myproject\MyQQ1\bin;D:\IEDownload\jsoup-1.13.1.jar -Djdk= 134217728                                 {product} {ergonomic}
+   size_t MarkStackSize                            = 4194304                                   {product} mentedCodeCache                       = true                                      {product} {ergonomic}
+     bool UseCompressedClassPointers               = true          gram Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSS------
+
+OS: Windows 10 , 64 bit Build 19041 (10.0.19041.928)
+
+CPU:total 8 (initial active 8) (4 cores per cpu, 2 threads per core) family 6 model 142 stepping 10, cmov,
